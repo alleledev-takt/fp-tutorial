@@ -2,10 +2,10 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f5c8161e767f6c8db9df8a3f6c2814ae4f929327348a2d4278073d6951d930d1
+-- hash: 911bd0544cb826597786390689903eafe9a7dedf5d2befb6d33acd240a9e6ec2
 
 name:           tutorial
-version:        0.0.0
+version:        0.1.0.0
 build-type:     Simple
 cabal-version:  >= 1.10
 
