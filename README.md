@@ -1,5 +1,9 @@
 # Functional Programming Tutorial
 
+| FP Tutorial | 0.1.0.0 |
+| ----------- | ------- |
+| Maintainer  | alleledev-takt |
+
 A series of worked out problems demonstrating ideas like:
 
 * basic type system terminology and usage
