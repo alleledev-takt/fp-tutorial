@@ -1,0 +1,38 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f5c8161e767f6c8db9df8a3f6c2814ae4f929327348a2d4278073d6951d930d1
+
+name:           tutorial
+version:        0.0.0
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      Tutorial.Option
+  other-modules:
+      Paths_tutorial
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , bytestring
+    , text
+  default-language: Haskell2010
+
+test-suite simple-spec
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_tutorial
+  hs-source-dirs:
+      test
+  build-depends:
+      base
+    , bytestring
+    , hedgehog
+    , text
+    , tutorial
+  default-language: Haskell2010

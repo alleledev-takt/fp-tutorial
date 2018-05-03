@@ -1,0 +1,20 @@
+name: tutorial
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - text
+    - bytestring
+
+tests:
+  simple-spec:
+    dependencies:
+      - base
+      - text
+      - bytestring
+      - tutorial
+      - hedgehog
+    source-dirs:
+      - test
+    main: Spec.hs
